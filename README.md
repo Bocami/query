@@ -1,5 +1,6 @@
-query
+Query
 =====
+
 
 ```csharp
 public class IsUserNameAvailableQuery : IQuery
