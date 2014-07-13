@@ -1,6 +1,9 @@
 Query
 =====
 
+Queries are used to query the state of the domain.
+
+
 
 ```csharp
 public class IsUserNameAvailableQuery : IQuery
