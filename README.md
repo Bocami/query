@@ -10,7 +10,6 @@ public class IsUserNameAvailableQuery : IQuery
 {
   public string UserName { get; set;}
 }
-
 ```
 
 ```csharp
@@ -18,7 +17,6 @@ public class IsUserNameAvailableQueryResult : IQueryResult
 {
   public bool IsUserNameAvailable { get; set;}
 }
-
 ```
 
 ```csharp
@@ -44,5 +42,4 @@ public class IsUserNameAvailableQueryHandler : IQueryHandler<IsUserNameAvailable
     };
   }
 }
-
 ```
