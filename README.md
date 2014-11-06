@@ -1,9 +1,15 @@
 Query
-=====
+=======
 
-Queries are used to query the state of the domain.
+Queries retreive information from the Domain Model. An IQuery describes the query, an IQueryHandler handles an IQuery and returns an IQueryResult.
 
+## Install
 
+```
+Install-Package Bocami.Practices.Query -Source https://www.myget.org/F/bocami/
+```
+
+## Usage
 
 ```csharp
 public class IsUserNameAvailableQuery : IQuery
