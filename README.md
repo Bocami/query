@@ -11,6 +11,7 @@ Install-Package Bocami.Practices.Query -Source https://www.myget.org/F/bocami/
 
 ## Usage
 
+Query:
 ```csharp
 public class IsUserNameAvailableQuery : IQuery
 {
@@ -18,6 +19,7 @@ public class IsUserNameAvailableQuery : IQuery
 }
 ```
 
+Query Result:
 ```csharp
 public class IsUserNameAvailableQueryResult : IQueryResult
 {
@@ -25,6 +27,7 @@ public class IsUserNameAvailableQueryResult : IQueryResult
 }
 ```
 
+Query Handler:
 ```csharp
 public class IsUserNameAvailableQueryHandler : IQueryHandler<IsUserNameAvailableQuery, IsUserNameAvailableQueryResult>
 {
